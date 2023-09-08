@@ -3,22 +3,23 @@ body {
 }
 
 h1 {
-    color: #34e607;
+    color: #37b318;
 
 }
 
 li  {
-    color: #05cdfa
+    color: #37b318;
+
 }
 
-h3 {
+h3 {    
     color:#fa05e5
 }
 
 p{
-    color:bisque
+    color:rgb(228, 208, 26)
 }
 
 h4 {
-    color:yellow
+    color: #fa05e5
 }
