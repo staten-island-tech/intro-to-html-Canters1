@@ -3,28 +3,3 @@
 @tailwind utilities;
 
 
-body {
-    background: #ee2906
-}
-
-h1 {
-    color: #37b318;
-
-}
-
-li  {
-    color: #37b318;
-
-}
-
-h3 {    
-    color:#fa05e5
-}
-
-p{
-    color:rgb(228, 208, 26)
-}
-
-h4 {
-    color: #fa05e5
-}

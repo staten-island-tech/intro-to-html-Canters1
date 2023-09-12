@@ -534,19 +534,73 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-green-400 {
+.list-item {
+  display: list-item;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.bg-slate-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.via-blue-500 {
-  --tw-gradient-to: rgb(59 130 246 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #3b82f6 var(--tw-gradient-via-position), var(--tw-gradient-to);
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -554,31 +608,38 @@ video {
   line-height: 2rem;
 }
 
-.text-blue-500 {
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-\[\#7372a2\] {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(115 114 162 / var(--tw-text-opacity));
 }
 
-body {
-  background: #ee2906
+.text-\[\#081051\] {
+  --tw-text-opacity: 1;
+  color: rgb(8 16 81 / var(--tw-text-opacity));
 }
 
-h1 {
-  color: #37b318;
+.text-\[\#a390fc\] {
+  --tw-text-opacity: 1;
+  color: rgb(163 144 252 / var(--tw-text-opacity));
 }
 
-li  {
-  color: #37b318;
+.text-\[\#f3f4f9\] {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 249 / var(--tw-text-opacity));
 }
 
-h3 {
-  color:#fa05e5
-}
 
-p{
-  color:rgb(228, 208, 26)
-}
-
-h4 {
-  color: #fa05e5
-}
